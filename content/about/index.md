@@ -42,7 +42,7 @@ I grew up in the fast-growing city Shenzhen, China and witnessed its evolution t
 - Satellite data usage in air quality
 
 {{< admonition type=info title="More" open=false >}}
-See research details in my academic [CV](CV_Yuanjian%20Zhang.pdf).
+See research details in my academic [CV](Yuanjian_Zhang_CV.pdf).
 {{< /admonition >}}
 
 
