@@ -5,17 +5,11 @@ draft: false
 ---
 {{< figure src=/images/selfie.jpg >}}
 
-{{< admonition type=tip title="Hint" open=false >}}
-Up to 11/08/2022, Sisyphus has carried 21 rocks:birthday:!
-{{< /admonition >}}
-
 ## Bio
 
-I grew up in the fast-growing city Shenzhen, China and witnessed its evolution to a metropolitan city. Chemistry was what I was curious about in high school. But I found my interest in Environmental Science later after being admitted to Peking University (PKU). Now I am learning atmospheric modeling skills for better understanding air pollution across the world.
+Yuanjian Zhang is an undergraduate student at Peking University. He is currently interested in air pollutant regional distribution and their policy-related endpoints. His work utilizes multiple methods including chemical transport models, machine learning and analysis of ground level observation and satellite data.
 
 ------
-
-
 
 
 ## Education & Work
@@ -28,40 +22,18 @@ I grew up in the fast-growing city Shenzhen, China and witnessed its evolution t
 
 ------
 
+## Research Interest
 
+- Atmospheric Modeling
 
+- Exposure Assessment
 
-## Research Interests
+- Atmospheric Chemistry
 
-- Air pollution modeling
-
-- Exposure assessment
-
-- Atmospheric chemistry
-
-- Satellite data usage in air quality
+- Aerosol-Climate Interaction
 
 {{< admonition type=info title="More" open=false >}}
 See research details in my academic [CV](Yuanjian_Zhang_CV.pdf).
 {{< /admonition >}}
 
-
 ------
-
-
-
-## Hobbies
-
-- :saxophone: Jazz & :notes: Broadway Musicals
-
-- :camera: Photography
-
-- :baseball: Softball pitcher
-
-- :video_game: Video games & :dagger:D&D
-
-------
-
-*Favorite playlist recently:*
-
-{{< music auto="https://music.163.com/#/playlist?id=7618658230" list-folded=true >}}

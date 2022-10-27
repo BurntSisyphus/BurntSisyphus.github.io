@@ -192,11 +192,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.jpg"
+      avatarURL = "/images/avatar-real.jpg"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = "Yuanjian Zhang"
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "Sharing glimpses of my life"
+      subtitle = "An atmospheric modeler"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号

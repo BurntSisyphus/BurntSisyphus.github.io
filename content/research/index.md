@@ -6,17 +6,9 @@ draft: false
 
 ## Current Projects
 
-### Estimation of sector-wise PM$_{2.5}$ exposure in India, 2014
+### Specified sector-wise PM$_{2.5}$ health impacts in India, 2014
 
-High concentration of PM$_{2.5}$ in India is a growing concern in terms of its effect on human health. In order to clean the air effectively, one of the approaches is to evaluate how much the emissions from each sectors affect the exposure eventually.
-
-I utilized [PKU-Fuel](http://inventory.pku.edu.cn/) emission inventory and [WRF-Chem](https://www2.acom.ucar.edu/wrf-chem) model to assess contribution from different sectors to ambient PM$_{2.5}$. The baseline scenario is evaluated with satellite assimilation, literature and observation data:
-
-{{< figure src=/images/obs.png >}}
-
-Then I modified PKU-Fuel inventory with [EDGAR-HTAPv3](https://edgar.jrc.ec.europa.eu/dataset_htap_v3), [GFED](https://www.globalfiredata.org/) and [PPAC](https://www.ppac.gov.in/) data update *Crop Residues* and *Dung Cake* burning in India. Emissions are divided into {{< link href=Sectors.html content=12-sectors >}} (see abbreviations here) and presented by species in percentages below:
-
-
+High concentration of PM$_{2.5}$ in India is a growing concern in terms of its effect on human health. It is significant to evaluate how much sector-wise emission affects ambient exposure to particulate matters. Previous research focuses on main sectors like total residential emission, which is a combination of various kinds of fuels. However, posing regulations on unspecified main sectors may be unfeasible. This study aims to break down the contributions and provide better references for air-cleaning policy makers.
 
 {{< echarts >}}
 
@@ -43,7 +35,7 @@ Then I modified PKU-Fuel inventory with [EDGAR-HTAPv3](https://edgar.jrc.ec.euro
   "xAxis": {
     "type": "category",
     "data": [
-        "CRB", "B", "OI", "E", "T", "OA", "N",
+        "BB", "B", "OI", "P", "T", "OA", "N",
         "DC", "S", "FC", "RC", "OR"
     ],
     "splitArea": {
@@ -87,8 +79,11 @@ Then I modified PKU-Fuel inventory with [EDGAR-HTAPv3](https://edgar.jrc.ec.euro
 }
 
 {{< /echarts >}}
+In the study, [WRF-Chem](https://www2.acom.ucar.edu/wrf-chem) model is utilized to assess contribution from different sectors to ambient PM$_{2.5}$. [PKU-Fuel](http://inventory.pku.edu.cn/) inventory is modified with [EDGAR-HTAPv3](https://edgar.jrc.ec.europa.eu/dataset_htap_v3), [GFED](https://www.globalfiredata.org/) and [PPAC](https://www.ppac.gov.in/) data to update *Biomass Burning* and *Dung Cake Burning* in India. Emissions are divided into {{< link href=Sectors.html content=12-sectors >}} (see abbreviations here) and presented by species in percentages above.
 
-Now I am working on simulation of 13 cases (including baseline), after which I will analyze contribution of each sector to PM$_{2.5}$ exposure in India.
+IER C-R function is used to estimate sector-specific contributions to premature mortalities for the 12 sensitivity tests. Residential sector results in 300 (95% CI, same below: 150-530) thousand deaths, while Power generation and Industry separately account for 220 (100-400) and 150 (70-260) thousand deaths. In residential sector, dung cake and straw both contribute over 100 thousand deaths. While other industry show greater impacts on urban health, brick production poses heavier burdens for rural counterpart.
+
+{{< figure src=/images/IER-Sector-UR.jpg >}}
 
 ------
 

@@ -1,15 +1,15 @@
 
 
- 
+
 
 ```mermaid
 graph LR;
 	A[Emission]
 	A --> C[Industry]
-	A --> B[Energy]
-	A --> D[Transportation]
+	A --> B[Power Generation-P]
+	A --> D[Transport-T]
 	A --> E[Residential]
-	A --> N[Natural]
+	A --> N[Natural-N]
 	A --> F[Agricultural]
 	C --> G[Brick-B]
 	C --> H[Other-OI]
@@ -18,7 +18,7 @@ graph LR;
 	E --> K[Firewood & Charcoal-FC]
 	E --> L[Dung Cake-DC]
 	E --> M[Other-OR]
-	F --> O[Crop Residues Burning-CRB]
+	F --> O[Biomass Burning-BB]
 	F --> P[Other-OA]
 ```
 
